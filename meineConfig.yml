@@ -1,0 +1,11 @@
+jenkins:
+  securityRealm:
+    local:
+      users:
+        - id: richard
+          password: ${PASSWORD}
+tool:
+  git:
+    installations:
+      - name: git
+        home: /usr/bin/git
