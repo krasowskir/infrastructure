@@ -3,6 +3,10 @@ git-client:latest
 ssh:latest
 ssh-agent:latest
 dashboard-view:latest
-maven:latest
+maven:3.1
 configuration-as-code:latest
 configuration-as-code-support:latest
+seed:latest
+build-pipeline-plugin:latest
+pipeline-multibranch-defaults:latest
+pipeline-model-definition:latest

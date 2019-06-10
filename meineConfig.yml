@@ -9,3 +9,22 @@ tool:
     installations:
       - name: git
         home: /usr/bin/git
+  maven:
+    installations:
+      - name: meinMaven
+        properties:
+          - installSource:
+              installers:
+                - maven:
+                    id: "3.6.1"
+
+credentials:
+  system:
+    domainCredentials:
+      - domain:
+        credentials:
+          - usernamePassword:
+              scope: SYSTEM
+              id: git_credentials
+              username: ${GIT_USER}
+              password: ${GIT_PASSWORD}

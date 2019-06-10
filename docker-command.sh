@@ -1,0 +1,1 @@
+docker run -d -p 8080:8080 --name myJenkins -v /home/richard/Programmierung/infrastructure/meineConfig.yml:/usr/share/jenkins/meinZeug/meineConfig.yml --network gogs_infrastructure_default myjenkins_image
