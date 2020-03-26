@@ -3,7 +3,7 @@ git-client:latest
 ssh:latest
 ssh-agent:latest
 dashboard-view:latest
-maven:3.1
+maven:latest
 configuration-as-code:latest
 configuration-as-code-support:latest
 seed:latest
